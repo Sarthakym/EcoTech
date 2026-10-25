@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="EcoTech - E-Waste Management CEP Project">
+<title>EcoTech | E-Waste Management</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="modern.css">
+<link rel="stylesheet" href="scene.css">
+<link rel="stylesheet" href="branding.css">
+<link rel="stylesheet" href="journey.css">
+<link rel="stylesheet" href="experience.css">
+<link rel="stylesheet" href="welcome.css">
+<link rel="icon" type="image/png" href="logo-mark.png">
+</head>
+<body>
+<dialog id="welcomeGate" class="welcome-gate" aria-labelledby="welcomeTitle" aria-describedby="welcomeDescription">
+  <div class="welcome-shutter welcome-shutter-left" aria-hidden="true"></div>
+  <div class="welcome-shutter welcome-shutter-right" aria-hidden="true"></div>
+  <div class="welcome-brand"><img src="logo-light.png" alt="EcoTech — E-waste recycling" width="700" height="160"></div>
+  <div class="welcome-layout">
+    <div class="welcome-copy">
+      <p class="welcome-eyebrow">THE CIRCULAR LAB / COME ON IN</p>
+      <h2 id="welcomeTitle">Welcome to<br><span>EcoTech.</span></h2>
+      <p id="welcomeDescription">An old phone. A new possibility.<br>Let’s give your electronics a useful next chapter.</p>
+      <div class="welcome-actions">
+        <button id="enterEcoTech" class="welcome-enter" type="button" aria-describedby="welcomeAudioNote" autofocus>Enter EcoTech <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+        <button id="enterQuietly" class="welcome-quiet" type="button">Enter quietly</button>
+      </div>
+      <p id="welcomeAudioNote" class="welcome-audio-note">Enter with a short spoken welcome, or take the quiet route.</p>
+    </div>
+    <div class="welcome-art" aria-hidden="true">
+      <div class="welcome-art-orbit"></div>
+      <div class="welcome-disc">
+        <span class="welcome-rim"></span><span class="welcome-rim"></span><span class="welcome-rim"></span><span class="welcome-rim"></span><span class="welcome-rim"></span>
+        <span class="welcome-face welcome-front"><img src="logo-mark.png" alt="" width="400" height="370"></span>
+        <span class="welcome-face welcome-back"><img src="logo-mark.png" alt="" width="400" height="370"></span>
+      </div>
+      <span class="welcome-art-label">ET—001 / A CIRCULAR FUTURE</span>
+    </div>
+  </div>
+  <div class="welcome-footer"><span>STUDENT-BUILT IN LONI</span><span>SMALL DEVICES. BIG POTENTIAL.</span></div>
+</dialog>
+<header class="topbar"><a class="brand" href="#home" aria-label="EcoTech home"><img class="brand-logo" src="logo.png" alt="EcoTech — E-waste recycling" width="700" height="160"></a><nav id="nav" aria-label="Main navigation"><a href="#home" class="active">Home</a><a href="#about">About us</a><a href="#guide">How it works</a><a href="#centers">Find a center</a><a href="#rewards">Eco rewards</a></nav><button class="menu" onclick="toggleMenu()" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><div class="header-actions"><a class="btn primary" href="#pickup">Schedule a pickup <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div></header>
+
+<main>
+<section id="home" class="hero"><div class="hero-text"><span class="pill">ECOTECH / THE CIRCULAR LAB</span><h1>Your old tech.<br><span>Not the end.</span></h1><p>Phones you forgot. Cables you kept.<br>Give your unused electronics a useful next chapter.</p><div class="actions"><a class="btn primary" href="#pickup">Recycle your tech <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="btn ghost" href="#guide">Explore the lab <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div><div class="lab-credit"><span class="lab-credit-line" aria-hidden="true"></span><p><strong>Built by students. Rooted in Loni.</strong><br>Try the recycling loop. Keep useful materials moving.</p></div></div><div class="hero-art"><div class="photo-frame"><img src="hero.jpg" alt="A vintage telephone ready for a second life through responsible reuse and recycling" fetchpriority="high"><div class="photo-caption">NOT THE END OF THE LINE.<b>Just a new beginning.</b></div></div><div class="orbit"><img class="brand-mark" src="logo-mark.png" alt="" width="400" height="370"></div><div class="float-card"><div class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4C9 2 3 7 5 14c2 7 14 7 15-10Z"/><path d="M4 21 15 10"/></svg></div><div><b>NOT WASTE.<br>RAW POTENTIAL.</b><small>A DIFFERENT WAY TO LOOK AT IT</small></div></div><span class="art-note">RETHINK. REUSE. RECYCLE.</span></div></section>
+
+<div class="experience-index" role="navigation" aria-label="The EcoTech journey">
+  <a href="#about" data-chapter="1" aria-current="step"><span class="chapter-number">01</span><span><small>DISCOVER</small>The idea</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+  <a href="#guide" data-chapter="2"><span class="chapter-number">02</span><span><small>RETHINK</small>The process</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+  <a href="#pickup" data-chapter="3"><span class="chapter-number">03</span><span><small>TAKE ACTION</small>Your next step</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+  <a href="#dashboard" data-chapter="4"><span class="chapter-number">04</span><span><small>MAKE A DIFFERENCE</small>The impact</span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+</div>
+
+<section class="stats" aria-label="Illustrative project impact"><div><b>1,250<i>+</i></b><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 7 4-4 4 4M11 3v12M17 8l5 2-1 5M22 10l-10 6M15 20l-5 2-3-4M10 22 4 12"/></svg> Items collected · demo</span></div><div><b>450<i>+</i></b><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4C9 2 3 7 5 14c2 7 14 7 15-10Z"/><path d="M4 21 15 10"/></svg> Devices recycled · demo</span></div><div><b>120<i>+</i></b><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m1-17a3 3 0 0 1 0 6m2 5a5 5 0 0 1 3 4v2"/></svg> Eco-minded users · demo</span></div><div><b>15<i>+</i></b><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 10c0 6-7 12-7 12S5 16 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></svg> Collection centers · demo</span></div></section>
+
+<section id="about">
+  <div class="section-head"><span class="eyebrow">A SMALL STEP. A BIG DIFFERENCE.</span><h2>Good for your space. Better for the planet.</h2><p>That old phone in your drawer still has a purpose. Let’s give it one.</p></div>
+  <div class="grid three">
+    <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-6 5-6 13 0 18 6-5 6-13 0-18Z"/></svg></div><h3>Less waste. More life.</h3><p>Responsible recycling reduces the amount of electronic waste entering landfills and helps prevent pollution.</p></article>
+    <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7 7 4-4 4 4M11 3v12M17 8l5 2-1 5M22 10l-10 6M15 20l-5 2-3-4M10 22 4 12"/></svg></div><h3>Nothing valuable wasted.</h3><p>Recycling can recover useful metals, plastics and components that can enter new production cycles.</p></article>
+    <article class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4C9 2 3 7 5 14c2 7 14 7 15-10Z"/><path d="M4 21 15 10"/></svg></div><h3>Change starts with us.</h3><p>Small actions such as repairing, reusing and handing e-waste to proper collection channels make a difference.</p></article>
+  </div>
+</section>
+
+<section id="categories" class="soft">
+  <div class="section-head"><span class="eyebrow">CATEGORIES</span><h2>Small or big, we’ll help you recycle it.</h2><p>Choose a category to start your demo pickup request.</p></div>
+  <div class="grid four">
+    <article class="card category"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4M10 5h4"/></svg></div><h3>Mobiles & Tablets</h3><p>Phones, tablets, smart devices and accessories.</p></article>
+    <article class="card category"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="13" rx="2"/><path d="m4 16-2 5h20l-2-5M9 18h6"/></svg></div><h3>Computers</h3><p>Laptops, desktops, keyboards, mice and monitors.</p></article>
+    <article class="card category"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v5m8-5v5M6 8h12v4a6 6 0 0 1-12 0V8Zm6 10v4"/></svg></div><h3>Accessories</h3><p>Chargers, adapters, cables, earphones and USB devices.</p></article>
+    <article class="card category"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></div><h3>Home Electronics</h3><p>Televisions, printers and other electronic appliances.</p></article>
+  </div>
+</section>
+
+<section id="guide">
+  <div class="section-head"><span class="eyebrow">RECYCLING GUIDE</span><h2>A fresh start in five simple steps.</h2></div>
+  <div class="timeline">
+    <div><b>01</b><article><h3>Identify</h3><p>Separate unwanted electrical and electronic items from regular household waste.</p></article></div>
+    <div><b>02</b><article><h3>Protect Your Data</h3><p>Back up important files and remove personal data before handing over phones or computers.</p></article></div>
+    <div><b>03</b><article><h3>Prepare</h3><p>Keep devices, cables and batteries organized. Do not dismantle hazardous components yourself.</p></article></div>
+    <div><b>04</b><article><h3>Hand Over</h3><p>Use an authorized collection/recycling channel or a responsible take-back program.</p></article></div>
+    <div><b>05</b><article><h3>Reuse & Recycle</h3><p>Working products may be reused or repaired; end-of-life material can be professionally recycled.</p></article></div>
+  </div>
+</section>
+
+<section id="centers" class="soft">
+  <div class="section-head"><span class="eyebrow">COLLECTION CENTERS</span><h2>Find a Recycling Center</h2><p>Demo directory for the CEP prototype. Replace these entries with verified local facilities before public deployment.</p></div>
+  <div class="search"><input aria-label="Search centers by city or item" id="centerSearch" placeholder="Search by city or item..."><button class="btn primary" onclick="filterCenters()">Search</button></div>
+  <div id="centerList" class="grid three"></div>
+  <p class="center-note">Note: The centers shown below are prototype/demo records. Verify an authorized facility before handing over e-waste.</p>
+</section>
+
+<section id="pickup">
+  <div class="section-head"><span class="eyebrow">COLLECTION SERVICE</span><h2>Schedule E-Waste Pickup</h2><p>Save your pickup details, then send the prepared request to EcoTech on WhatsApp.</p></div>
+  <form id="pickupForm" class="form card" novalidate>
+    <div class="form-grid">
+      <label>Name<input id="pName" required></label><label>Mobile<input id="pMobile" required pattern="[0-9]{10}" title="Enter 10 digit mobile number"></label>
+      <label class="full">Address<textarea id="pAddress" required></textarea></label>
+      <label>E-Waste Type<select id="pType" required><option value="">Select</option><option>Mobile / Tablet</option><option>Computer / Laptop</option><option>Keyboard / Mouse</option><option>Charger / Cable</option><option>Printer / TV</option><option>Other</option></select></label>
+      <label>Approx. Quantity<input id="pQty" type="number" min="1" required></label>
+      <label>Preferred Date<input id="pDate" type="date" required></label><label>Preferred Time<select id="pTime"><option>10:00 AM - 12:00 PM</option><option>12:00 PM - 2:00 PM</option><option>2:00 PM - 4:00 PM</option><option>4:00 PM - 6:00 PM</option></select></label>
+    </div>
+    <button class="btn primary" type="submit" aria-describedby="pickupWhatsAppNote">Save &amp; open WhatsApp <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+    <p id="pickupWhatsAppNote" class="contact-note">Opens WhatsApp to +91 8275470063 with your name, mobile number, address, items, and preferred pickup time. Review the message and tap Send. WhatsApp and an internet connection are required.</p>
+    <div id="pickupWhatsAppStatus" class="pickup-whatsapp-status" role="status" hidden>
+      <p>Your pickup details are saved in this browser. Tap Send in WhatsApp to deliver the request. If WhatsApp did not open, use the link below. Delivery cannot be verified here, and your pickup still needs confirmation from EcoTech.</p>
+      <a id="pickupWhatsAppLink" class="btn ghost" target="_blank" rel="noopener noreferrer">Open prepared WhatsApp message</a>
+    </div>
+  </form>
+</section>
+
+<section id="rewards" class="soft">
+  <div class="section-head"><span class="eyebrow">ECO REWARDS</span><h2>Recycle & Earn Points</h2></div>
+  <div class="reward-wrap">
+    <div class="reward card"><p>Your demo Eco Points</p><strong id="points">145</strong><span>points</span><button class="btn primary" onclick="redeem()">Redeem 100 Points</button></div>
+    <div class="card"><h3>Point Guide</h3><div class="point-row"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4M10 5h4"/></svg> Mobile phone</span><b>50</b></div><div class="point-row"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M6 10h1m4 0h1m4 0h1M6 14h1m4 0h1m4 0h1m-8 2h6"/></svg> Keyboard</span><b>30</b></div><div class="point-row"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="6"/><path d="M12 2v7m-6 1h12"/></svg> Mouse</span><b>20</b></div><div class="point-row"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v5m8-5v5M6 8h12v4a6 6 0 0 1-12 0V8Zm6 10v4"/></svg> Charger</span><b>15</b></div><div class="point-row"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v5m8-5v5M6 8h12v4a6 6 0 0 1-12 0V8Zm6 10v4"/></svg> Cable</span><b>10</b></div></div>
+  </div>
+</section>
+
+<section id="machine">
+  <div class="section-head"><span class="eyebrow">PROJECT MODEL</span><h2>Smart E-Waste Vending Machine</h2><p>A miniature prototype concept that accepts small e-waste items and awards points.</p></div>
+  <div class="machine-layout">
+    <div class="machine">
+      <div class="machine-head"><img class="machine-brand-logo" src="logo-light.png" alt="EcoTech — E-waste recycling" width="700" height="160"></div><div id="machineScreen" class="screen">READY<br><small>SELECT AN ITEM</small></div>
+      <div class="machine-buttons"><button onclick="scan('Mobile Phone',50)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4M10 5h4"/></svg> Mobile</button><button onclick="scan('Charger',15)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v5m8-5v5M6 8h12v4a6 6 0 0 1-12 0V8Zm6 10v4"/></svg> Charger</button><button onclick="scan('Cable',10)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v5m8-5v5M6 8h12v4a6 6 0 0 1-12 0V8Zm6 10v4"/></svg> Cable</button><button onclick="scan('Keyboard',30)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M6 10h1m4 0h1m4 0h1M6 14h1m4 0h1m4 0h1m-8 2h6"/></svg> Keyboard</button></div>
+      <div class="slot">INSERT E-WASTE HERE ↓</div>
+    </div>
+    <div class="card"><h3>How the model works</h3><ol class="clean"><li>User selects the item type.</li><li>Sensor detects the inserted item.</li><li>Controller calculates reward points.</li><li>Display shows the points earned.</li><li>Item is stored for responsible recycling.</li></ol><p class="note">For a physical prototype, ESP32/Arduino, IR sensor, servo, LCD and optional load cell can be used.</p></div>
+  </div>
+</section>
+
+<section id="quiz" class="soft">
+  <div class="section-head"><span class="eyebrow">AWARENESS</span><h2>Test Your E-Waste Knowledge</h2></div>
+  <div class="quiz card"><h3 id="qText"></h3><div id="options"></div><p id="quizResult"></p><button class="btn ghost" onclick="nextQuestion()">Next Question</button></div>
+</section>
+
+<section id="dashboard">
+  <div class="section-head"><span class="eyebrow">USER DASHBOARD</span><h2>Your EcoTech Activity</h2></div>
+  <div class="grid four">
+    <div class="dash card"><span>Eco Points</span><b id="dashPoints">145</b></div><div class="dash card"><span>Pickup Requests</span><b id="dashPickups">0</b></div><div class="dash card"><span>Machine Scans</span><b id="dashScans">0</b></div><div class="dash card"><span>Quiz Score</span><b id="dashQuiz">0/5</b></div>
+  </div>
+  <div class="card activity">
+    <div class="activity-head"><h3>Recent Activity</h3><button class="btn danger" type="button" onclick="clearActivity()">Clear Demo Data</button></div>
+    <div id="activity">No activity yet. Use the forms or vending machine above.</div>
+  </div>
+</section>
+
+<section id="contact" class="soft">
+  <div class="section-head"><span class="eyebrow">CONTACT</span><h2>Let’s make a difference, together.</h2><p>A student initiative by the Information Technology team at Pravara Rural Engineering College, Loni.</p></div>
+  <form id="contactForm" class="form card">
+    <div class="form-grid">
+      <label>Name<input id="cName" required autocomplete="name"></label>
+      <label>Email<input id="cEmail" type="email" required autocomplete="email"></label>
+      <label class="full">Message<textarea id="cMessage" required></textarea></label>
+    </div>
+    <button class="btn primary" type="submit">Save demo message</button><p class="contact-note">Local demo only. This form does not send email.</p>
+  </form>
+</section>
+<div class="quick-links"><a href="#categories">What can I recycle?</a><a href="#machine">Smart machine demo</a><a href="#quiz">Test your knowledge</a><a href="#dashboard">My activity</a><a href="#contact">Meet the project</a></div><br><br></main>
+
+<footer class="site-footer">
+  <div><h2><a href="#home" aria-label="EcoTech home"><img class="footer-brand-logo" src="logo-light.png" alt="EcoTech — E-waste recycling" width="700" height="160"></a></h2><p>Smart E-Waste Management System</p></div>
+  <div class="footer-college"><b>College</b><p>Information Technology<br>Pravara Rural Engineering College, Loni</p></div>
+  <div class="footer-guide"><b>CEP PROJECT GUIDE</b><p>Mr.D.B. Ghorpade</p></div>
+  <div><b>Project Team</b>
+<p>
+Shweta Maske<br>
+Sarthak Matade<br>
+Vishwa Mhaske<br>
+Shravani Mundhe
+</p></div>
+  <small>© 2026 EcoTech • Educational Prototype • No server/database required</small>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script><script src="enhance.js"></script><script src="sound.js"></script><script src="scene.js"></script><script src="particles.js"></script><script src="journey.js"></script>
+</body>
+</html>
